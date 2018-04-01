@@ -8,11 +8,11 @@ body{
 	color: white;
 	font-family: "Arial",sans-serif;
 	font-size: 16px;
-	background: url(../img/background-site.jpg);
+	background: url(background-site.jpg);
 	/*overflow-x: hidden; */
 }
 .header{
-	background: rgba(0,0,0,0.7) url(../img/header-background.jpg) no-repeat;
+	background: rgba(0,0,0,0.7) url(header-background.jpg) no-repeat;
 	background-size: cover;
 	background-position: top center;
 	width: 100%;
