@@ -141,18 +141,7 @@ nav{
 	-webkit-transition: all 0.5s linear;
 	
 }
-.trans > .ham1{
-  transform: rotate(45deg) translate(6px,6px);
- /* -webkit-transform: rotate(45deg) translate(4.8px,7.8px); */
-  -moz-transform: rotate(45deg) translate(4.8px,7.8px);
-  -o-transform: rotate(45deg) translate(5px,7px) 
-}
-.trans > .ham2{
-	opacity: 0;
-}
-.trans > .ham3{
-	transform: rotate(-45deg) translate(5px,-8px)
-}
+
 .welcome_div{
 	clear: both;
 	width: 100%;
