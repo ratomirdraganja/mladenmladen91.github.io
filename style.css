@@ -70,7 +70,7 @@ nav{
 	z-index: 100;
 
 	width: 40px;
-	padding: 20px;
+	float: left;
 	visibility: hidden;
     font-size: 40px;
     cursor: pointer;
