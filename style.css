@@ -256,7 +256,7 @@ footer{
 }
 @media only screen and (max-width: 768px){
     .welcome_div{
-    	height: 500px;
+    	height: 600px;
     }
     #nav1{
     	display: none;
