@@ -68,8 +68,9 @@ nav{
 	font-family: 'Dancing Script', cursive;
 	color: white;
 	z-index: 100;
+
 	width: 40px;
-	margin: 0 auto;
+	padding: 20px;
 	visibility: hidden;
     font-size: 25px;
     cursor: pointer;
