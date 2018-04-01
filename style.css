@@ -69,7 +69,7 @@ nav{
 	color: white;
 	z-index: 100;
 	width: 40px;
-	margin: auto;
+	margin: 0 auto;
 	visibility: hidden;
     font-size: 25px;
     cursor: pointer;
