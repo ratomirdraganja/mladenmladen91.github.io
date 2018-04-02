@@ -170,7 +170,6 @@ section{
 }
 section div{
 	margin: 0 auto;
-	
 	width: 100%;
 	
 
@@ -187,7 +186,7 @@ section > div > div{
 	margin: auto;
 	padding: 30px;
 	width: 80%;
-	text-align: center;
+	
 }
 .about_me{
         font-size: 15px;
