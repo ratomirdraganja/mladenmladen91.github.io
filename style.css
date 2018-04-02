@@ -77,8 +77,8 @@ nav{
 	position: fixed;
 	left: 0;
 	width: 100%;
-    top: 47px;	
-    background-color: rgba(0,0,0,0.7);
+        top: 47px;	
+        background-color: rgba(0,0,0,0.7);
 	z-index: 100;
 	display: none;
 	margin: 0;
@@ -152,7 +152,7 @@ nav{
 }
 .welcome_span1{
 	font-size: 4em;
-	-webkit-animation: lefting 0.4s linear;
+	animation: lefting 0.4s linear;
 	-moz-animation: lefting 0.4s linear;
 }
 .welcome_span2{   
