@@ -192,6 +192,10 @@ section > div > div{
 .about_me{
         font-size: 17px;
 }
+.movelist{
+        margin-left: 30px;
+	font-size: 17px;
+}
 section > div > div > img{
 	display: block;
 	margin: auto;
