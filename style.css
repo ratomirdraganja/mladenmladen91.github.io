@@ -193,8 +193,8 @@ section > div > div{
         font-size: 17px;
 }
 .movelist{
-        margin-left: 30px;
-	font-size: 17px;
+        padding: 30px;
+	font-size: 17px !important;
 }
 section > div > div > img{
 	display: block;
