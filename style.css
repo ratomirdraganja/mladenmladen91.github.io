@@ -152,8 +152,6 @@ nav{
 }
 .welcome_span1{
 	font-size: 4em;
-	animation: lefting 0.4s linear;
-	-moz-animation: lefting 0.4s linear;
 }
 .welcome_span2{   
 	font-family: 'Dancing Script', cursive;
@@ -230,18 +228,7 @@ footer{
 	-o-animation: slide 0.4s  linear;
 	visibility: visible; 
 }
-@keyframes lefting{
-    0%{
-    	-webkit-transform: translateX(-70%);
-	-moz-transform: translateX(-70%);
-    	opacity: 0;
-    }
-    100%{
-    	-moz-transform: translateX(0%);
-	-webkit-transform: translateX(0%);    
-    	opacity: 1;
-    }
-}
+
 @keyframes slide {
 	0%{
 		-webkit-transform: translateY(70%);
