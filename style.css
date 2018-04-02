@@ -35,7 +35,7 @@ a{
 nav{
   width: 100%;
   position: fixed;
-	top:0;
+  top:0;
   color: white;
   padding:0;
  
@@ -52,7 +52,7 @@ nav{
 
 }
 #nav1 a{
-	float: left;
+    float: left;
     height: 50px;
     line-height: 50px;
     text-align: center;
@@ -61,20 +61,16 @@ nav{
 
 }
 #nav1 a:hover{
-	
 	background: rgba(0,0,0,0.9);
 }
 #mj{
 	font-family: 'Dancing Script', cursive;
 	color: white;
-
-
-	width: 40px;
-	
+        width: 40px;
 	visibility: hidden;
-    font-size: 40px;
-    cursor: pointer;
-    z-index: 100;
+        font-size: 40px;
+        cursor: pointer;
+        z-index: 100;
 
 }
 #nav2{
@@ -92,9 +88,9 @@ nav{
 	display: block;
 	padding: 15px;
 	margin: 0;
-    width: 100%;
-    text-align: center;
-    border-bottom: 1px solid black;
+        width: 100%;
+        text-align: center;
+        border-bottom: 1px solid black;
 
 }
 #nav2 a:hover{
@@ -121,15 +117,15 @@ nav{
 	width: 36px;
 	background: transparent;
 	color: white;
-    text-align: center;
-    margin: 5px; 
-    margin-right: 5px;
-    border: 1px solid white;
-    border-radius: 3px;
-    -moz- border-radius: 3px;
-    -webkit- border-radius: 3px;
-    -o- border-radius: 3px;
-    display: none;
+        text-align: center;
+        margin: 5px; 
+        margin-right: 5px;
+        border: 1px solid white;
+        border-radius: 3px;
+        -moz- border-radius: 3px;
+        -webkit- border-radius: 3px;
+        -o- border-radius: 3px;
+        display: none;
 
 
 }
@@ -234,12 +230,14 @@ footer{
 }
 @keyframes slide {
 	0%{
-		transform: translateY(70%);
+		-webkit-transform: translateY(70%);
+		-moz-transform: translateY(70%);
 		opacity: 0;
 		filter(alpha = 0%);
 	}
 	100%{
-		transform: translateY(0%);
+		-webkit-transform: translateY(0%);
+		-moz-transform: translateY(0%);
 		opacity: 1;
 		filter(alpha = 100%);
 	}
@@ -274,38 +272,36 @@ footer{
 	padding-top:25%;
 }
    .welcome_span1, .welcome_span2{
-		font-size: 1.5em;
+	font-size: 1.5em;
 	}
 	
-	section div img{
+   section div img{
 		width: 120px;
 		height: 120px;
 	}
-	section > div{
+   section > div{
 	
 	padding-top: 50px;
 }
-	section > div > div{
+   section > div > div{
 	
 	padding: 20px;
 	
 }
-	section h1{
+   section h1{
 		font-size: 20px;
 	}
-	section h3{
+   section h3{
 	font-size: 14px; 
 }
-.numeration{
+   .numeration{
 	margin-left: 30px;
 }
-
-	
-.numeration li {
+   .numeration li {
 	font-size: 15px;
 	
 }
-iframe{
+   iframe{
 	height: 200px!important;
 }
 
